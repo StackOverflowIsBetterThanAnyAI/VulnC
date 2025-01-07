@@ -35,7 +35,6 @@ jobs:
         queries: |
           security-extended
           security-and-quality
-          maintenance
         
     - if: matrix.build-mode == 'manual'
       shell: bash
