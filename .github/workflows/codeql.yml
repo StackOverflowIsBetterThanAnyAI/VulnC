@@ -32,7 +32,8 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
-        queries: security-extended
+        queries: github/codeql/cpp-maintenance@v1
+
         
     - if: matrix.build-mode == 'manual'
       shell: bash
